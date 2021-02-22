@@ -18,7 +18,15 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, './Develop/public')));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populatedb", { useNewUrlParser: true });
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/Workout-Tracker',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+  );
 
 //Routes go here
 
