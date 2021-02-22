@@ -1,7 +1,8 @@
 # workout-tracker
   
   ##### Table of Contents  
-  * [Description](#description)  
+  * [Description](#description)
+  * [Demo](#demo)
   * [Installation](#installation)
   * [Usage](#usage)  
   * [License](#license)  
@@ -11,7 +12,11 @@
 
 
   ## Description
- The workout tracker is supposed to allow users to enter workouts and keep track of them. Users can add new ones, update current workouts, or see different stats. CURRENTLY NOT WORKING! I can't get my exercises to save and be available to view for the user. 
+ The workout tracker is supposed to allow users to enter workouts and keep track of them. Users can add new ones, update current workouts, or see different stats. CURRENTLY NOT WORKING! I can't get my exercises to save and be available to view for the user.
+ 
+ ## Demo
+ 
+ ![Fitness Tracker](https://user-images.githubusercontent.com/71421032/108661560-f0d41980-7480-11eb-8db7-db51f2b6dd0c.gif)
 
   ## Installation
   You will need to install the following repository in order to use: https://github.com/alxndrnevermando/workout-tracker.git
